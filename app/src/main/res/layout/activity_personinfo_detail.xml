@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".PersonInfoDetail">
+
+    <ImageView
+        android:id="@+id/imageViewPersonInfoDetailImage"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/noname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:id="@+id/textViewPersonInfoDetailID"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:text="ID"
+        android:textColor="#DFC45F"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPersonInfoDetailImage" />
+
+    <TextView
+        android:id="@+id/textViewPersonInfoDetailID2"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center_vertical"
+        android:text="so the"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewPersonInfoDetailID"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPersonInfoDetailImage" />
+
+    <TextView
+        android:id="@+id/textViewPersonInfoDetailName"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center_vertical"
+        android:text="Name"
+        android:textColor="#DFC45F"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPersonInfoDetailID" />
+
+    <TextView
+        android:id="@+id/textViewPersonInfoDetailName2"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center_vertical"
+        android:text="ten"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewPersonInfoDetailName"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPersonInfoDetailID2" />
+
+    <TextView
+        android:id="@+id/textViewPersonInfoDetailDepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center_vertical"
+        android:text="Dept"
+        android:textColor="#DFC45F"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPersonInfoDetailName" />
+
+    <TextView
+        android:id="@+id/textViewPersonInfoDetailDepartment2"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center_vertical"
+        android:text="don vi"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewPersonInfoDetailDepartment"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPersonInfoDetailName2" />
+
+    <TextView
+        android:id="@+id/textViewPersonInfoDetailGender"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center_vertical"
+        android:text="Gender"
+        android:textColor="#DFC45F"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPersonInfoDetailDepartment" />
+
+    <TextView
+        android:id="@+id/textViewPersonInfoDetailGender2"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center_vertical"
+        android:text="gioi tinh"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewPersonInfoDetailGender"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPersonInfoDetailDepartment2" />
+
+    <TextView
+        android:id="@+id/textViewPersonInfoDetailBirthday"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center_vertical"
+        android:text="Birthday"
+        android:textColor="#DFC45F"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPersonInfoDetailGender" />
+
+    <TextView
+        android:id="@+id/textViewPersonInfoDetailBirthday2"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center_vertical"
+        android:text="ngay sinh"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewPersonInfoDetailBirthday"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPersonInfoDetailGender2" />
+
+    <TextView
+        android:id="@+id/textViewPersonInfoDetailPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center_vertical"
+        android:text="Phone"
+        android:textColor="#DFC45F"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPersonInfoDetailBirthday" />
+
+    <TextView
+        android:id="@+id/textViewPersonInfoDetailPhone2"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center_vertical"
+        android:text="dien thoai"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewPersonInfoDetailPhone"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPersonInfoDetailBirthday2" />
+
+    <TextView
+        android:id="@+id/textViewPersonInfoDetailStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center_vertical"
+        android:text="Status"
+        android:textColor="#DFC45F"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPersonInfoDetailPhone" />
+
+    <TextView
+        android:id="@+id/textViewPersonInfoDetailStatus2"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center_vertical"
+        android:text="trang thai"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewPersonInfoDetailStatus"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPersonInfoDetailPhone2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

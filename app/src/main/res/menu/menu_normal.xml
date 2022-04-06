@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuitemnormalSearch"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        android:icon="@drawable/search"
+        android:title="Search" />
+    <item
+        android:id="@+id/menuitemnormalAdd"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/add"
+        android:title="Add" />
+    <item
+        android:id="@+id/menuitemnormalEdit"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/edit"
+        android:title="Edit" />
+    <item
+        android:id="@+id/menuitemnormalDelete"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/delete"
+        android:title="Delete" />
+    <item
+        android:id="@+id/menuitemnormalRefresh"
+        android:icon="@drawable/refresh"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="Refresh" />
+</menu>

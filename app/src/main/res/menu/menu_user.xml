@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuitemuserAdd"
+        android:icon="@drawable/add"
+        android:title="Add"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/menuitemuserEdit"
+        android:icon="@drawable/edit"
+        android:title="Edit"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/menuitemuserDelete"
+        android:icon="@drawable/delete"
+        android:title="Delete"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/menuitemuserRefresh"
+        android:title="Refresh"
+        android:icon="@drawable/refresh"
+        app:showAsAction="ifRoom|collapseActionView" />
+</menu>

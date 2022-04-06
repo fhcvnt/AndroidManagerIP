@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".UserAdd">
+
+        <TextView
+            android:id="@+id/textViewUseraddID"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="ID"
+            android:textColor="#D84315"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextUseraddID"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:hint="ID (6)"
+            android:inputType="textPersonName"
+            android:maxLength="6"
+            android:textColor="#000"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewUseraddID" />
+
+        <TextView
+            android:id="@+id/textViewUseraddUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical"
+            android:text="Username"
+            android:textColor="#D84315"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextUseraddID" />
+
+        <EditText
+            android:id="@+id/editTextUseraddUsername"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:hint="Username (12)"
+            android:inputType="textPersonName"
+            android:maxLength="12"
+            android:textColor="#000"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewUseraddUsername" />
+
+        <TextView
+            android:id="@+id/textViewUseraddGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical"
+            android:text="Group"
+            android:textColor="#D84315"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextUseraddUsername" />
+
+        <RadioButton
+            android:id="@+id/radioButtonUseraddUser"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:checked="true"
+            android:text="User"
+            android:textColor="#2239E3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/textViewUseraddGroup"
+            app:layout_constraintTop_toBottomOf="@+id/editTextUseraddUsername" />
+
+        <RadioButton
+            android:id="@+id/radioButtonUseraddAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Admin"
+            android:textColor="#2239E3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/radioButtonUseraddUser"
+            app:layout_constraintTop_toBottomOf="@+id/editTextUseraddUsername" />
+
+        <TextView
+            android:id="@+id/textViewUseraddPersonname"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:text="Person Name"
+            android:textColor="#D84315"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewUseraddGroup" />
+
+        <EditText
+            android:id="@+id/editTextUseraddPersonname"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:hint="Person name (50)"
+            android:inputType="textPersonName"
+            android:maxLength="50"
+            android:textColor="#000"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewUseraddPersonname" />
+
+        <EditText
+            android:id="@+id/editTextUseraddPassword"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:hint="Password (32)"
+            android:inputType="textPassword"
+            android:maxLength="32"
+            android:textColor="#000"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewUseraddPassword" />
+
+        <TextView
+            android:id="@+id/textViewUseraddPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical"
+            android:text="Password"
+            android:textColor="#D84315"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextUseraddPersonname" />
+
+        <ImageButton
+            android:id="@+id/imageButtonUseraddSave"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.447"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextUseraddPassword"
+            app:srcCompat="@drawable/save64ngang" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

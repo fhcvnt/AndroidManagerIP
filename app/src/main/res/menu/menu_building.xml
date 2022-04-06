@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuitembuildingSearch"
+        android:icon="@drawable/search"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+    <item
+        android:id="@+id/menuitembuildingAdd"
+        android:icon="@drawable/add"
+        android:title="Add"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/menuitembuildingEdit"
+        android:icon="@drawable/edit"
+        android:title="Edit"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/menuitembuildingDelete"
+        android:icon="@drawable/delete"
+        android:title="Delete"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/menuitembuildingRefresh"
+        android:title="Refresh"
+        android:icon="@drawable/refresh"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+</menu>

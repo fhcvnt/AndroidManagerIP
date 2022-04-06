@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lacty.manager.ip">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logoip"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logoip"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ManagerIP">
+        <activity android:name=".Software"></activity>
+        <activity
+            android:name=".Internet"
+            android:label="Internet" />
+        <activity
+            android:name=".UserEdit"
+            android:label="Edit user" />
+        <activity
+            android:name=".UserAdd"
+            android:label="Add user" />
+        <activity
+            android:name=".User"
+            android:label="User" />
+        <activity
+            android:name=".OfficeEdit"
+            android:label="Edit officeM" />
+        <activity
+            android:name=".OfficeAdd"
+            android:label="Add office" />
+        <activity
+            android:name=".Office"
+            android:label="Office" />
+        <activity
+            android:name=".OSEdit"
+            android:label="Edit OS" />
+        <activity
+            android:name=".OSAdd"
+            android:label="Add OS" />
+        <activity
+            android:name=".OS"
+            android:label="OS" />
+        <activity
+            android:name=".BuildingEdit"
+            android:label="Edit building" />
+        <activity
+            android:name=".BuildingAdd"
+            android:label="Add building" />
+        <activity
+            android:name=".Building"
+            android:label="Building" />
+        <activity
+            android:name=".Department"
+            android:label="Department" />
+        <activity android:name=".ManageripEdit" />
+        <activity
+            android:name=".ManageripAdd"
+            android:label="Add IP" />
+        <activity
+            android:name=".ManageripSearch"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".GetIP"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".ManagerIP"
+            android:label="List IP" />
+        <activity
+            android:name=".PersonInfoDetail"
+            android:label="Detail" />
+        <activity
+            android:name=".PersonInfoSearch"
+            android:label="Search" />
+        <activity
+            android:name=".PersonInfo"
+            android:label="Person info" />
+        <activity
+            android:name=".MachineType"
+            android:label="Machine type" />
+        <activity
+            android:name=".MachineTypeAdd"
+            android:label="Add machine type" />
+        <activity
+            android:name=".MachinetypeEdit"
+            android:label="Edit machine type" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainSuggestion"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+    </application>
+
+</manifest>
